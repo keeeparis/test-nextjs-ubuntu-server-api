@@ -9,4 +9,11 @@ export default [
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
+  {
+    name: 'strapi::compression',
+    config: {
+      gzip: true,
+      br: false,
+    }
+  }
 ];
